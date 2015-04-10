@@ -4,7 +4,7 @@
     <attributeDecl name="name" type="String"/>
   </declarations>
   <branch>
-    <attribute name="name" value="Minecraft Classes"/>
+    <attribute name="name" value="Inheriting Classes"/>
     <branch>
       <attribute name="name" value="Block"/>
       <leaf>

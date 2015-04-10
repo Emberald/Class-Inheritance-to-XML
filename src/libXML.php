@@ -126,7 +126,7 @@ function outputXML($xml, $filename) {
 function makeReadable($nodeList, $nodeIndependent) {
 	file_put_contents(__DIR__.'/output/Readable.md', "###Inheriting classes\n");
 	putInheritance($nodeList, 0);
-	file_put_contents(__DIR__.'/output/Readable.md', "###Classes without any superclass in the project\n", FILE_APPEND);
+	file_put_contents(__DIR__.'/output/Readable.md', "\n###Classes without any superclass in the project\n", FILE_APPEND);
 	putIndependence($nodeIndependent);
 }
 
