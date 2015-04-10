@@ -1,0 +1,1517 @@
+###Inheriting classes
+1. Block
+  1. BlockAir
+  2. BlockBarrier
+  3. BlockBasePressurePlate
+    1. BlockPressurePlate
+    2. BlockPressurePlateWeighted
+  4. BlockBookshelf
+  5. BlockBreakable
+    1. BlockGlass
+    2. BlockIce
+    3. BlockPortal
+    4. BlockSlime
+    5. BlockStainedGlass
+  6. BlockBush
+    1. BlockCrops
+      1. BlockCarrot
+      2. BlockPotato
+    2. BlockDeadBush
+    3. BlockDoublePlant
+    4. BlockFlower
+      1. BlockRedFlower
+      2. BlockYellowFlower
+    5. BlockLilyPad
+    6. BlockMushroom
+    7. BlockNetherWart
+    8. BlockSapling
+    9. BlockStem
+    10. BlockTallGrass
+  7. BlockButton
+    1. BlockButtonStone
+    2. BlockButtonWood
+  8. BlockCactus
+  9. BlockCake
+  10. BlockCarpet
+  11. BlockCauldron
+  12. BlockClay
+  13. BlockColored
+  14. BlockCompressed
+    1. BlockCompressedPowered
+  15. BlockContainer
+    1. BlockBanner
+    2. BlockBeacon
+    3. BlockBrewingStand
+    4. BlockChest
+    5. BlockCommandBlock
+    6. BlockDaylightDetector
+    7. BlockDispenser
+      1. BlockDropper
+    8. BlockEnchantmentTable
+    9. BlockEnderChest
+    10. BlockEndPortal
+    11. BlockFlowerPot
+    12. BlockFurnace
+    13. BlockHopper
+    14. BlockJukebox
+    15. BlockMobSpawner
+    16. BlockNote
+    17. BlockPistonMoving
+    18. BlockSign
+      1. BlockStandingSign
+      2. BlockWallSign
+    19. BlockSkull
+  16. BlockDirectional
+    1. BlockBed
+    2. BlockCocoa
+    3. BlockFenceGate
+    4. BlockPumpkin
+    5. BlockRedstoneDiode
+      1. BlockRedstoneComparator
+      2. BlockRedstoneRepeater
+  17. BlockDirt
+  18. BlockDoor
+  19. BlockDragonEgg
+  20. BlockEndPortalFrame
+  21. BlockFalling
+    1. BlockAnvil
+    2. BlockGravel
+    3. BlockSand
+  22. BlockFarmland
+  23. BlockFence
+  24. BlockFire
+  25. BlockGlowstone
+  26. BlockGrass
+  27. BlockHardenedClay
+  28. BlockHugeMushroom
+  29. BlockLadder
+  30. BlockLeavesBase
+    1. BlockLeaves
+      1. BlockNewLeaf
+      2. BlockOldLeaf
+  31. BlockLever
+  32. BlockLiquid
+    1. BlockDynamicLiquid
+    2. BlockStaticLiquid
+  33. BlockMelon
+  34. BlockMycelium
+  35. BlockNetherBrick
+  36. BlockNetherrack
+  37. BlockObsidian
+  38. BlockOre
+  39. BlockPackedIce
+  40. BlockPane
+    1. BlockStainedGlassPane
+  41. BlockPistonBase
+  42. BlockPistonExtension
+  43. BlockPlanks
+  44. BlockPrismarine
+  45. BlockQuartz
+  46. BlockRailBase
+    1. BlockRail
+    2. BlockRailDetector
+    3. BlockRailPowered
+  47. BlockRedSandstone
+  48. BlockRedstoneLight
+  49. BlockRedstoneOre
+  50. BlockRedstoneWire
+  51. BlockReed
+  52. BlockRotatedPillar
+    1. BlockHay
+    2. BlockLog
+      1. BlockNewLog
+      2. BlockOldLog
+  53. BlockSandStone
+  54. BlockSeaLantern
+  55. BlockSilverfish
+  56. BlockSlab
+    1. BlockStoneSlab
+      1. BlockDoubleStoneSlab
+      2. BlockHalfStoneSlab
+    2. BlockStoneSlabNew
+      1. BlockDoubleStoneSlabNew
+      2. BlockHalfStoneSlabNew
+    3. BlockWoodSlab
+      1. BlockDoubleWoodSlab
+      2. BlockHalfWoodSlab
+  57. BlockSnow
+  58. BlockSnowBlock
+  59. BlockSoulSand
+  60. BlockSponge
+  61. BlockStairs
+  62. BlockStone
+  63. BlockStoneBrick
+  64. BlockTNT
+  65. BlockTorch
+    1. BlockRedstoneTorch
+  66. BlockTrapDoor
+  67. BlockTripWire
+  68. BlockTripWireHook
+  69. BlockVine
+  70. BlockWall
+  71. BlockWeb
+  72. BlockWorkbench
+2. Material
+  1. MaterialLiquid
+  2. MaterialLogic
+  3. MaterialPortal
+  4. MaterialTransparent
+3. PropertyHelper
+  1. PropertyBool
+  2. PropertyEnum
+    1. PropertyDirection
+  3. PropertyInteger
+4. PositionedSound
+  1. MovingSound
+    1. GuardianSound
+    2. MovingSoundMinecart
+    3. MovingSoundMinecartRiding
+  2. PositionedSoundRecord
+5. Gui
+  1. GuiAchievement
+  2. GuiButton
+    1. GuiButtonLanguage
+    2. GuiButtonRealmsProxy
+    3. GuiListButton
+    4. GuiLockIconButton
+    5. GuiOptionButton
+    6. GuiOptionSlider
+    7. GuiSlider
+  3. GuiIngame
+  4. GuiLabel
+  5. GuiNewChat
+  6. GuiOverlayDebug
+  7. GuiPlayerTabOverlay
+  8. GuiScreen
+    1. GuiAchievements
+    2. GuiStats
+    3. GuiChat
+      1. GuiSleepMP
+    4. GuiCommandBlock
+    5. GuiControls
+    6. GuiCreateFlatWorld
+    7. GuiCreateWorld
+    8. GuiCustomizeSkin
+    9. GuiCustomizeWorldScreen
+    10. GuiDisconnected
+    11. GuiDownloadTerrain
+    12. GuiErrorScreen
+    13. GuiFlatPresets
+    14. GuiGameOver
+    15. GuiIngameMenu
+    16. GuiLanguage
+    17. GuiMainMenu
+    18. GuiMemoryErrorScreen
+    19. GuiMultiplayer
+    20. GuiOptions
+    21. GuiRenameWorld
+    22. GuiScreenAddServer
+    23. GuiScreenBook
+    24. GuiScreenCustomizePresets
+    25. GuiScreenDemo
+    26. GuiScreenOptionsSounds
+    27. GuiScreenRealmsProxy
+    28. GuiScreenResourcePacks
+    29. GuiScreenServerList
+    30. GuiScreenWorking
+    31. GuiSelectWorld
+    32. GuiShareToLan
+    33. GuiSnooper
+    34. GuiVideoSettings
+    35. GuiWinGame
+    36. GuiYesNo
+      1. GuiConfirmOpenLink
+    37. GuiContainer
+      1. GuiEnchantment
+      2. GuiHopper
+      3. GuiMerchant
+      4. GuiRepair
+      5. GuiBeacon
+      6. GuiBrewingStand
+      7. GuiChest
+      8. GuiCrafting
+      9. GuiDispenser
+      10. GuiFurnace
+      11. GuiScreenHorseInventory
+      12. InventoryEffectRenderer
+        1. GuiContainerCreative
+        2. GuiInventory
+    38. GuiEditSign
+    39. ScreenChatOptions
+    40. GuiIngestServers
+    41. GuiStreamOptions
+    42. GuiStreamUnavailable
+    43. GuiTwitchUserMode
+    44. GuiConnecting
+  9. GuiSpectator
+  10. GuiTextField
+6. GuiSlot
+  1. GuiClickableScrolledSelectionListProxy
+  2. GuiListExtended
+    1. GuiKeyBindingList
+    2. GuiOptionsRowList
+    3. GuiPageButtonList
+    4. GuiResourcePackList
+      1. GuiResourcePackAvailable
+      2. GuiResourcePackSelected
+    5. ServerSelectionList
+  3. GuiSimpleScrolledSelectionListProxy
+  4. GuiSlotRealmsProxy
+7. ModelBase
+  1. ModelBanner
+  2. ModelBat
+  3. ModelBiped
+    1. ModelArmorStandArmor
+      1. ModelArmorStand
+    2. ModelEnderman
+    3. ModelPlayer
+    4. ModelZombie
+      1. ModelSkeleton
+    5. ModelZombieVillager
+  4. ModelBlaze
+  5. ModelBoat
+  6. ModelBook
+  7. ModelChest
+    1. ModelLargeChest
+  8. ModelChicken
+  9. ModelCreeper
+  10. ModelDragon
+  11. ModelEnderCrystal
+  12. ModelEnderMite
+  13. ModelGhast
+  14. ModelGuardian
+  15. ModelHorse
+  16. ModelIronGolem
+  17. ModelLeashKnot
+  18. ModelMagmaCube
+  19. ModelMinecart
+  20. ModelOcelot
+  21. ModelQuadruped
+    1. ModelCow
+    2. ModelPig
+    3. ModelSheep1
+    4. ModelSheep2
+  22. ModelRabbit
+  23. ModelSign
+  24. ModelSilverfish
+  25. ModelSkeletonHead
+    1. ModelHumanoidHead
+  26. ModelSlime
+  27. ModelSnowMan
+  28. ModelSpider
+  29. ModelSquid
+  30. ModelVillager
+    1. ModelWitch
+  31. ModelWither
+  32. ModelWolf
+8. BakedQuad
+  1. BreakingFour
+9. StateMapperBase
+  1. DefaultStateMapper
+  2. StateMap
+10. RenderChunk
+  1. ListedRenderChunk
+11. ChunkRenderContainer
+  1. RenderList
+  2. VboRenderList
+12. ClippingHelper
+  1. ClippingHelperImpl
+13. LayerArmorBase
+  1. LayerBipedArmor
+    1. LayerVillagerArmor
+14. Render
+  1. RenderArrow
+  2. RenderBoat
+  3. RenderEntity
+  4. RenderEntityItem
+  5. RendererLivingEntity
+    1. ArmorStandRenderer
+    2. RenderLiving
+      1. RenderBat
+      2. RenderBiped
+        1. RenderPigZombie
+        2. RenderSkeleton
+        3. RenderZombie
+      3. RenderBlaze
+      4. RenderChicken
+      5. RenderCow
+      6. RenderCreeper
+      7. RenderDragon
+      8. RenderEnderman
+      9. RenderEndermite
+      10. RenderGhast
+      11. RenderGiantZombie
+      12. RenderGuardian
+      13. RenderHorse
+      14. RenderIronGolem
+      15. RenderMagmaCube
+      16. RenderMooshroom
+      17. RenderOcelot
+      18. RenderPig
+      19. RenderRabbit
+      20. RenderSheep
+      21. RenderSilverfish
+      22. RenderSlime
+      23. RenderSnowMan
+      24. RenderSpider
+        1. RenderCaveSpider
+      25. RenderSquid
+      26. RenderVillager
+      27. RenderWitch
+      28. RenderWither
+      29. RenderWolf
+    3. RenderPlayer
+  6. RenderFallingBlock
+  7. RenderFireball
+  8. RenderFish
+  9. RenderLeashKnot
+  10. RenderLightningBolt
+  11. RenderMinecart
+    1. RenderMinecartMobSpawner
+    2. RenderTntMinecart
+  12. RenderPainting
+  13. RenderSnowball
+    1. RenderPotion
+  14. RenderTNTPrimed
+  15. RenderXPOrb
+  16. RenderEnderCrystal
+  17. RenderItemFrame
+  18. RenderWitherSkull
+15. AbstractTexture
+  1. DynamicTexture
+  2. LayeredColorMaskTexture
+  3. LayeredTexture
+  4. SimpleTexture
+    1. ThreadDownloadImageData
+  5. TextureMap
+16. TextureAtlasSprite
+  1. TextureClock
+  2. TextureCompass
+17. TileEntitySpecialRenderer
+  1. TileEntityBannerRenderer
+  2. TileEntityBeaconRenderer
+  3. TileEntityChestRenderer
+  4. TileEntityEnchantmentTableRenderer
+  5. TileEntityEnderChestRenderer
+  6. TileEntityEndPortalRenderer
+  7. TileEntityMobSpawnerRenderer
+  8. TileEntityPistonRenderer
+  9. TileEntitySignRenderer
+  10. TileEntitySkullRenderer
+18. WorldVertexBufferUploader
+  1. VertexBufferUploader
+19. AbstractResourcePack
+  1. FileResourcePack
+  2. FolderResourcePack
+20. BaseMetadataSectionSerializer
+  1. AnimationMetadataSectionSerializer
+  2. FontMetadataSectionSerializer
+  3. LanguageMetadataSectionSerializer
+  4. PackMetadataSectionSerializer
+  5. TextureMetadataSectionSerializer
+21. ResourcePackListEntry
+  1. ResourcePackListEntryDefault
+  2. ResourcePackListEntryFound
+22. ShaderUniform
+  1. ShaderDefault
+23. Metadata
+  1. MetadataAchievement
+  2. MetadataCombat
+  3. MetadataPlayerDeath
+24. CommandBase
+  1. CommandBlockData
+  2. CommandClearInventory
+  3. CommandClone
+  4. CommandCompare
+  5. CommandDebug
+  6. CommandDifficulty
+  7. CommandEffect
+  8. CommandEnchant
+  9. CommandEntityData
+  10. CommandExecuteAt
+  11. CommandFill
+  12. CommandGameMode
+    1. CommandDefaultGameMode
+  13. CommandGameRule
+  14. CommandGive
+  15. CommandHelp
+  16. CommandKill
+  17. CommandParticle
+  18. CommandPlaySound
+  19. CommandServerKick
+  20. CommandSetPlayerTimeout
+  21. CommandSetSpawnpoint
+  22. CommandShowSeed
+  23. CommandSpreadPlayers
+  24. CommandStats
+  25. CommandTime
+  26. CommandTitle
+  27. CommandToggleDownfall
+  28. CommandTrigger
+  29. CommandWeather
+  30. CommandWorldBorder
+  31. CommandXP
+  32. CommandReplaceItem
+  33. CommandAchievement
+  34. CommandBanIp
+  35. CommandBanPlayer
+  36. CommandBroadcast
+  37. CommandDeOp
+  38. CommandEmote
+  39. CommandListBans
+  40. CommandListPlayers
+  41. CommandMessage
+  42. CommandMessageRaw
+  43. CommandOp
+  44. CommandPardonIp
+  45. CommandPardonPlayer
+  46. CommandPublishLocalServer
+  47. CommandSaveAll
+  48. CommandSaveOff
+  49. CommandSaveOn
+  50. CommandScoreboard
+  51. CommandSetBlock
+  52. CommandSetDefaultSpawnpoint
+  53. CommandStop
+  54. CommandSummon
+  55. CommandTeleport
+  56. CommandTestFor
+  57. CommandTestForBlock
+  58. CommandWhitelist
+25. CommandException
+  1. CommandNotFoundException
+  2. EntityNotFoundException
+  3. NumberInvalidException
+  4. PlayerNotFoundException
+  5. SyntaxErrorException
+    1. WrongUsageException
+26. CommandHandler
+  1. ServerCommandManager
+    1. IntegratedServerCommandManager
+27. BehaviorDefaultDispenseItem
+  1. BehaviorProjectileDispense
+28. Enchantment
+  1. EnchantmentArrowDamage
+  2. EnchantmentArrowFire
+  3. EnchantmentArrowInfinite
+  4. EnchantmentArrowKnockback
+  5. EnchantmentDamage
+  6. EnchantmentDigging
+  7. EnchantmentDurability
+  8. EnchantmentFireAspect
+  9. EnchantmentFishingSpeed
+  10. EnchantmentKnockback
+  11. EnchantmentLootBonus
+  12. EnchantmentOxygen
+  13. EnchantmentProtection
+  14. EnchantmentThorns
+  15. EnchantmentUntouching
+  16. EnchantmentWaterWalker
+  17. EnchantmentWaterWorker
+29. BaseAttribute
+  1. RangedAttribute
+30. BaseAttributeMap
+  1. ServersideAttributeMap
+31. EntityAIBase
+  1. EntityAIArrowAttack
+  2. EntityAIAttackOnCollide
+  3. EntityAIAvoidEntity
+  4. EntityAIBeg
+  5. EntityAIControlledByPlayer
+  6. EntityAICreeperSwell
+  7. EntityAIDoorInteract
+    1. EntityAIBreakDoor
+    2. EntityAIOpenDoor
+  8. EntityAIEatGrass
+  9. EntityAIFindEntityNearest
+  10. EntityAIFindEntityNearestPlayer
+  11. EntityAIFleeSun
+  12. EntityAIFollowGolem
+  13. EntityAIFollowOwner
+  14. EntityAIFollowParent
+  15. EntityAILeapAtTarget
+  16. EntityAILookAtVillager
+  17. EntityAILookIdle
+  18. EntityAIMate
+  19. EntityAIMoveIndoors
+  20. EntityAIMoveThroughVillage
+  21. EntityAIMoveToBlock
+    1. EntityAIHarvestFarmland
+    2. EntityAIOcelotSit
+  22. EntityAIMoveTowardsRestriction
+  23. EntityAIMoveTowardsTarget
+  24. EntityAIOcelotAttack
+  25. EntityAIPanic
+  26. EntityAIPlay
+  27. EntityAIRestrictOpenDoor
+  28. EntityAIRestrictSun
+  29. EntityAIRunAroundLikeCrazy
+  30. EntityAISit
+  31. EntityAISwimming
+  32. EntityAITarget
+    1. EntityAIDefendVillage
+    2. EntityAIHurtByTarget
+    3. EntityAINearestAttackableTarget
+      1. EntityAITargetNonTamed
+    4. EntityAIOwnerHurtByTarget
+    5. EntityAIOwnerHurtTarget
+  33. EntityAITempt
+  34. EntityAITradePlayer
+  35. EntityAIVillagerMate
+  36. EntityAIWander
+  37. EntityAIWatchClosest
+    1. EntityAILookAtTradePlayer
+    2. EntityAIWatchClosest2
+      1. EntityAIVillagerInteract
+32. Entity
+  1. EntityFX
+    1. Barrier
+    2. EntityAuraFX
+    3. EntityBreakingFX
+    4. EntityBubbleFX
+    5. EntityCloudFX
+    6. EntityCrit2FX
+    7. EntityDiggingFX
+      1. EntityBlockDustFX
+    8. EntityDropParticleFX
+    9. EntityEnchantmentTableParticleFX
+    10. EntityExplodeFX
+    11. EntityFireworkOverlayFX
+    12. EntityFireworkSparkFX
+    13. EntityFireworkStarterFX
+    14. EntityFishWakeFX
+    15. EntityFlameFX
+    16. EntityFootStepFX
+    17. EntityHeartFX
+    18. EntityHugeExplodeFX
+    19. EntityLargeExplodeFX
+    20. EntityLavaFX
+    21. EntityNoteFX
+    22. EntityParticleEmitter
+    23. EntityPickupFX
+    24. EntityPortalFX
+    25. EntityRainFX
+      1. EntitySplashFX
+    26. EntityReddustFX
+    27. EntitySmokeFX
+      1. EntityCritFX
+    28. EntitySnowShovelFX
+    29. EntitySpellParticleFX
+    30. EntitySuspendFX
+    31. MobAppearance
+  2. EntityDragonPart
+  3. EntityWeatherEffect
+    1. EntityLightningBolt
+  4. EntityHanging
+    1. EntityLeashKnot
+    2. EntityItemFrame
+    3. EntityPainting
+  5. EntityLivingBase
+    1. EntityLiving
+      1. EntityDragon
+      2. EntityCreature
+        1. EntityAgeable
+          1. EntityAnimal
+            1. EntityChicken
+            2. EntityCow
+              1. EntityMooshroom
+            3. EntityHorse
+            4. EntityPig
+            5. EntityRabbit
+            6. EntitySheep
+            7. EntityTameable
+              1. EntityOcelot
+              2. EntityWolf
+          2. EntityVillager
+        2. EntityGolem
+          1. EntityIronGolem
+          2. EntitySnowman
+        3. EntityMob
+          1. EntityWither
+          2. EntityBlaze
+          3. EntityCreeper
+          4. EntityEnderman
+          5. EntityEndermite
+          6. EntityGiantZombie
+          7. EntityGuardian
+          8. EntitySilverfish
+          9. EntitySkeleton
+          10. EntitySpider
+            1. EntityCaveSpider
+          11. EntityWitch
+          12. EntityZombie
+            1. EntityPigZombie
+      3. EntityFlying
+        1. EntityGhast
+      4. EntitySlime
+        1. EntityMagmaCube
+      5. EntityAmbientCreature
+        1. EntityBat
+      6. EntityWaterMob
+        1. EntitySquid
+    2. EntityArmorStand
+    3. EntityPlayer
+      1. AbstractClientPlayer
+        1. EntityOtherPlayerMP
+        2. EntityPlayerSP
+      2. EntityPlayerMP
+  6. EntityBoat
+  7. EntityEnderCrystal
+  8. EntityEnderEye
+  9. EntityFallingBlock
+  10. EntityFireworkRocket
+  11. EntityItem
+  12. EntityMinecart
+    1. EntityMinecartMobSpawner
+    2. EntityMinecartCommandBlock
+    3. EntityMinecartContainer
+      1. EntityMinecartChest
+      2. EntityMinecartHopper
+    4. EntityMinecartEmpty
+    5. EntityMinecartFurnace
+    6. EntityMinecartTNT
+  13. EntityTNTPrimed
+  14. EntityXPOrb
+  15. EntityArrow
+  16. EntityFireball
+    1. EntityLargeFireball
+    2. EntitySmallFireball
+    3. EntityWitherSkull
+  17. EntityFishHook
+  18. EntityThrowable
+    1. EntityEnderPearl
+    2. EntityExpBottle
+    3. EntityEgg
+    4. EntityPotion
+    5. EntitySnowball
+33. Container
+  1. ContainerBeacon
+  2. ContainerBrewingStand
+  3. ContainerChest
+  4. ContainerDispenser
+  5. ContainerEnchantment
+  6. ContainerFurnace
+  7. ContainerHopper
+  8. ContainerHorseInventory
+  9. ContainerMerchant
+  10. ContainerPlayer
+  11. ContainerRepair
+  12. ContainerWorkbench
+34. InventoryBasic
+  1. ContainerLocalMenu
+  2. AnimalChest
+  3. InventoryEnderChest
+35. Slot
+  1. SlotCrafting
+  2. SlotFurnaceFuel
+  3. SlotFurnaceOutput
+  4. SlotMerchantResult
+36. ShapedRecipes
+  1. RecipesMapExtending
+37. Item
+  1. ItemArmor
+  2. ItemArmorStand
+  3. ItemBed
+  4. ItemBlock
+    1. ItemBanner
+    2. ItemCloth
+    3. ItemColored
+      1. ItemLilyPad
+    4. ItemLeaves
+    5. ItemMultiTexture
+      1. ItemAnvilBlock
+      2. ItemDoublePlant
+    6. ItemPiston
+    7. ItemSlab
+    8. ItemSnow
+  5. ItemBoat
+  6. ItemBook
+  7. ItemBow
+  8. ItemBucket
+  9. ItemBucketMilk
+  10. ItemCarrotOnAStick
+  11. ItemCoal
+  12. ItemDoor
+  13. ItemDye
+  14. ItemEditableBook
+  15. ItemEgg
+  16. ItemEnchantedBook
+  17. ItemEnderEye
+  18. ItemEnderPearl
+  19. ItemExpBottle
+  20. ItemFireball
+  21. ItemFirework
+  22. ItemFireworkCharge
+  23. ItemFishingRod
+  24. ItemFlintAndSteel
+  25. ItemFood
+    1. ItemAppleGold
+    2. ItemFishFood
+    3. ItemSeedFood
+    4. ItemSoup
+  26. ItemGlassBottle
+  27. ItemHangingEntity
+  28. ItemHoe
+  29. ItemLead
+  30. ItemMapBase
+    1. ItemEmptyMap
+    2. ItemMap
+  31. ItemMinecart
+  32. ItemMonsterPlacer
+  33. ItemNameTag
+  34. ItemPotion
+  35. ItemRecord
+  36. ItemRedstone
+  37. ItemReed
+  38. ItemSaddle
+  39. ItemSeeds
+  40. ItemShears
+  41. ItemSign
+  42. ItemSimpleFoiled
+  43. ItemSkull
+  44. ItemSnowball
+  45. ItemSword
+  46. ItemTool
+    1. ItemAxe
+    2. ItemPickaxe
+    3. ItemSpade
+  47. ItemWritableBook
+38. NBTBase
+  1. NBTTagByteArray
+  2. NBTTagCompound
+  3. NBTTagEnd
+  4. NBTTagIntArray
+  5. NBTTagList
+  6. NBTTagString
+39. RConThreadBase
+  1. RConThreadClient
+  2. RConThreadMain
+  3. RConThreadQuery
+40. PathNavigate
+  1. PathNavigateGround
+    1. PathNavigateClimber
+  2. PathNavigateSwimmer
+41. Potion
+  1. PotionAbsorption
+  2. PotionAttackDamage
+  3. PotionHealth
+  4. PotionHealthBoost
+42. RealmsButton
+  1. RealmsSliderButton
+43. RealmsScreen
+  1. DisconnectedRealmsScreen
+  2. RealmsBridge
+44. Scoreboard
+  1. ServerScoreboard
+45. ScoreDummyCriteria
+  1. ScoreHealthCriteria
+  2. ObjectiveStat
+46. Team
+  1. ScorePlayerTeam
+47. ItemInWorldManager
+  1. DemoWorldManager
+48. ServerConfigurationManager
+  1. DedicatedPlayerList
+  2. IntegratedPlayerList
+49. UserList
+  1. BanList
+  2. UserListBans
+  3. UserListOps
+  4. UserListWhitelist
+50. UserListEntry
+  1. BanEntry
+    1. IPBanEntry
+    2. UserListBansEntry
+  2. UserListOpsEntry
+  3. UserListWhitelistEntry
+51. MinecraftServer
+  1. DedicatedServer
+  2. IntegratedServer
+52. StatBase
+  1. Achievement
+  2. StatBasic
+  3. StatCrafting
+53. StatFileWriter
+  1. StatisticsFile
+54. TileEntity
+  1. TileEntityBanner
+  2. TileEntityCommandBlock
+  3. TileEntityComparator
+  4. TileEntityDaylightDetector
+  5. TileEntityEnchantmentTable
+  6. TileEntityEnderChest
+  7. TileEntityEndPortal
+  8. TileEntityFlowerPot
+  9. TileEntityLockable
+    1. TileEntityBeacon
+    2. TileEntityBrewingStand
+    3. TileEntityChest
+    4. TileEntityDispenser
+      1. TileEntityDropper
+    5. TileEntityFurnace
+    6. TileEntityHopper
+  10. TileEntityMobSpawner
+  11. TileEntityNote
+  12. TileEntityPiston
+  13. TileEntitySign
+  14. TileEntitySkull
+55. ChatComponentStyle
+  1. ChatComponentScore
+  2. ChatComponentSelector
+  3. ChatComponentText
+  4. ChatComponentTranslation
+56. DamageSource
+  1. EntityDamageSource
+    1. EntityDamageSourceIndirect
+57. MovementInput
+  1. MovementInputFromOptions
+58. RegistrySimple
+  1. SoundRegistry
+  2. RegistryDefaulted
+  3. RegistryNamespaced
+    1. RegistryNamespacedDefaultedByKey
+59. ResourceLocation
+  1. ModelResourceLocation
+60. Vec3i
+  1. BlockPos
+61. BiomeDecorator
+  1. BiomeEndDecorator
+62. BiomeGenBase
+  1. BiomeGenBeach
+  2. BiomeGenDesert
+  3. BiomeGenEnd
+  4. BiomeGenForest
+  5. BiomeGenHell
+  6. BiomeGenHills
+  7. BiomeGenJungle
+  8. BiomeGenMesa
+  9. BiomeGenMushroomIsland
+  10. BiomeGenMutated
+  11. BiomeGenOcean
+  12. BiomeGenPlains
+  13. BiomeGenRiver
+  14. BiomeGenSavanna
+  15. BiomeGenSnow
+  16. BiomeGenStoneBeach
+  17. BiomeGenSwamp
+  18. BiomeGenTaiga
+63. WorldChunkManager
+  1. WorldChunkManagerHell
+64. Chunk
+  1. EmptyChunk
+65. ChunkCache
+  1. RegionRenderCache
+66. WorldGenerator
+  1. WorldGenAbstractTree
+    1. WorldGenBigTree
+    2. WorldGenCanopyTree
+    3. WorldGenForest
+    4. WorldGenHugeTrees
+      1. WorldGenMegaJungle
+      2. WorldGenMegaPineTree
+    5. WorldGenSavannaTree
+    6. WorldGenSwamp
+    7. WorldGenTaiga1
+    8. WorldGenTaiga2
+    9. WorldGenTrees
+      1. WorldGenShrub
+  2. WorldGenBigMushroom
+  3. WorldGenBlockBlob
+  4. WorldGenCactus
+  5. WorldGenClay
+  6. WorldGenDeadBush
+  7. WorldGenDesertWells
+  8. WorldGenDoublePlant
+  9. WorldGenDungeons
+  10. WorldGeneratorBonusChest
+  11. WorldGenFire
+  12. WorldGenFlowers
+  13. WorldGenGlowStone1
+  14. WorldGenGlowStone2
+  15. WorldGenHellLava
+  16. WorldGenIcePath
+  17. WorldGenIceSpike
+  18. WorldGenLakes
+  19. WorldGenLiquids
+  20. WorldGenMelon
+  21. WorldGenMinable
+  22. WorldGenPumpkin
+  23. WorldGenReed
+  24. WorldGenSand
+  25. WorldGenSpikes
+  26. WorldGenTallGrass
+  27. WorldGenVines
+  28. WorldGenWaterlily
+  29. GeneratorBushFeature
+67. GenLayer
+  1. GenLayerAddIsland
+  2. GenLayerAddMushroomIsland
+  3. GenLayerAddSnow
+  4. GenLayerBiome
+  5. GenLayerBiomeEdge
+  6. GenLayerDeepOcean
+  7. GenLayerEdge
+  8. GenLayerHills
+  9. GenLayerIsland
+  10. GenLayerRareBiome
+  11. GenLayerRemoveTooMuchOcean
+  12. GenLayerRiver
+  13. GenLayerRiverInit
+  14. GenLayerRiverMix
+  15. GenLayerShore
+  16. GenLayerSmooth
+  17. GenLayerVoronoiZoom
+  18. GenLayerZoom
+    1. GenLayerFuzzyZoom
+68. MapGenBase
+  1. MapGenCaves
+  2. MapGenCavesHell
+  3. MapGenRavine
+  4. MapGenStructure
+    1. MapGenMineshaft
+    2. MapGenNetherBridge
+    3. MapGenScatteredFeature
+    4. MapGenStronghold
+    5. MapGenVillage
+    6. StructureOceanMonument
+69. NoiseGenerator
+  1. NoiseGeneratorImproved
+  2. NoiseGeneratorOctaves
+  3. NoiseGeneratorPerlin
+70. StructureStart
+  1. StructureMineshaftStart
+71. NodeProcessor
+  1. SwimNodeProcessor
+  2. WalkNodeProcessor
+72. MapStorage
+  1. SaveDataMemoryStorage
+73. SaveFormatOld
+  1. AnvilSaveConverter
+74. SaveHandler
+  1. AnvilSaveHandler
+75. WorldInfo
+  1. DerivedWorldInfo
+76. World
+  1. WorldClient
+  2. WorldServer
+    1. DemoWorldServer
+    2. WorldServerMulti
+77. WorldProvider
+  1. WorldProviderEnd
+  2. WorldProviderHell
+  3. WorldProviderSurface
+78. WorldSavedData
+  1. ScoreboardSaveData
+  2. VillageCollection
+  3. MapGenStructureData
+  4. MapData
+###Classes without any superclass in this project
+1. BlockEventData
+2. BlockSourceImpl
+3. MapColor
+4. BlockPistonStructureHelper
+5. BlockState
+6. BlockStateBase
+7. BlockWorldState
+8. BlockHelper
+9. BlockPattern
+10. BlockStateHelper
+11. FactoryBlockPattern
+12. AnvilConverterException
+13. MusicTicker
+14. SoundEventAccessor
+15. SoundEventAccessorComposite
+16. SoundHandler
+17. SoundList
+18. SoundListSerializer
+19. SoundManager
+20. SoundPoolEntry
+21. ClientBrandRetriever
+22. ChatLine
+23. FontRenderer
+24. GuiStreamIndicator
+25. GuiUtilRenderComponents
+26. CreativeCrafting
+27. MapItemRenderer
+28. ScaledResolution
+29. ServerListEntryLanDetected
+30. ServerListEntryLanScan
+31. ServerListEntryNormal
+32. BaseSpectatorGroup
+33. SpectatorDetails
+34. TeleportToPlayer
+35. TeleportToTeam
+36. PlayerMenuObject
+37. SpectatorMenu
+38. LoadingScreenRenderer
+39. GameConfiguration
+40. Main
+41. Minecraft
+42. ModelBox
+43. ModelRenderer
+44. PositionTextureVertex
+45. TexturedQuad
+46. TextureOffset
+47. ChunkProviderClient
+48. PlayerControllerMP
+49. ServerAddress
+50. ServerData
+51. ServerList
+52. ThreadLanServerPing
+53. LanServerDetector
+54. NetHandlerHandshakeMemory
+55. NetHandlerLoginClient
+56. NetHandlerPlayClient
+57. NetworkPlayerInfo
+58. OldServerPinger
+59. EffectRenderer
+60. LocalBlockIntercommunication
+61. ActiveRenderInfo
+62. BlockFaceUV
+63. BlockPart
+64. BlockPartFace
+65. BlockPartRotation
+66. FaceBakery
+67. ItemCameraTransforms
+68. ItemModelGenerator
+69. ItemTransformVec3f
+70. ModelBlock
+71. ModelBlockDefinition
+72. BlockStateMapper
+73. BlockFluidRenderer
+74. BlockModelRenderer
+75. BlockModelShapes
+76. BlockRendererDispatcher
+77. ChestRenderer
+78. ChunkCompileTaskGenerator
+79. ChunkRenderDispatcher
+80. ChunkRenderWorker
+81. CompiledChunk
+82. ListChunkFactory
+83. SetVisibility
+84. VboChunkFactory
+85. VisGraph
+86. Frustum
+87. DestroyBlockProgress
+88. LayerArrow
+89. LayerCape
+90. LayerCreeperCharge
+91. LayerCustomHead
+92. LayerDeadmau5Head
+93. LayerEnderDragonDeath
+94. LayerEnderDragonEyes
+95. LayerEndermanEyes
+96. LayerHeldBlock
+97. LayerHeldItem
+98. LayerHeldItemWitch
+99. LayerIronGolemFlower
+100. LayerMooshroomMushroom
+101. LayerSaddle
+102. LayerSheepWool
+103. LayerSlimeGel
+104. LayerSnowmanHead
+105. LayerSpiderEyes
+106. LayerWitherAura
+107. LayerWolfCollar
+108. RenderItem
+109. RenderManager
+110. EntityRenderer
+111. Constants
+112. GLAllocation
+113. GlStateManager
+114. ImageBufferDownload
+115. ItemModelMesher
+116. ItemRenderer
+117. OpenGlHelper
+118. RegionRenderCacheBuilder
+119. RenderGlobal
+120. RenderHelper
+121. StitcherException
+122. Tessellator
+123. Stitcher
+124. TextureManager
+125. TextureUtil
+126. TileEntityItemStackRenderer
+127. TileEntityRendererDispatcher
+128. DefaultVertexFormats
+129. VertexBuffer
+130. VertexFormat
+131. VertexFormatElement
+132. ViewFrustum
+133. WorldRenderer
+134. AnimationFrame
+135. AnimationMetadataSection
+136. FontMetadataSection
+137. IMetadataSerializer
+138. LanguageMetadataSection
+139. PackMetadataSection
+140. TextureMetadataSection
+141. DefaultPlayerSkin
+142. DefaultResourcePack
+143. FallbackResourceManager
+144. FoliageColorReloadListener
+145. GrassColorReloadListener
+146. I18n
+147. Language
+148. LanguageManager
+149. Locale
+150. BuiltInModel
+151. ModelBakery
+152. ModelManager
+153. SimpleBakedModel
+154. WeightedBakedModel
+155. ResourceIndex
+156. ResourcePackFileNotFoundException
+157. ResourcePackRepository
+158. SimpleReloadableResourceManager
+159. SimpleResource
+160. SkinManager
+161. GameSettings
+162. KeyBinding
+163. Framebuffer
+164. Shader
+165. ShaderGroup
+166. ShaderLinkHelper
+167. ShaderLoader
+168. ShaderManager
+169. BroadcastController
+170. ChatController
+171. IngestServerTester
+172. NullStream
+173. TwitchStream
+174. JsonBlendingMode
+175. JsonException
+176. QuadComparator
+177. CommandResultStats
+178. IEntitySelector
+179. PlayerSelector
+180. CommandBlockLogic
+181. ServerCommand
+182. CrashReport
+183. CrashReportCategory
+184. CreativeTabs
+185. PositionImpl
+186. EnchantmentData
+187. EnchantmentHelper
+188. AttributeModifier
+189. ModifiableAttributeInstance
+190. EntityAITasks
+191. EntityJumpHelper
+192. EntityLookHelper
+193. EntityMoveHelper
+194. EntitySenses
+195. RandomPositionGenerator
+196. BossStatus
+197. DataWatcher
+198. EntityBodyHelper
+199. EntityList
+200. EntitySpawnPlacementRegistry
+201. EntityTracker
+202. EntityTrackerEntry
+203. NpcMerchant
+204. InventoryPlayer
+205. PlayerCapabilities
+206. SharedMonsterAttributes
+207. ClickEvent
+208. HoverEvent
+209. Blocks
+210. Bootstrap
+211. Items
+212. InventoryCrafting
+213. InventoryCraftResult
+214. InventoryHelper
+215. InventoryLargeChest
+216. InventoryMerchant
+217. CraftingManager
+218. FurnaceRecipes
+219. RecipeBookCloning
+220. RecipeFireworks
+221. RecipeRepairItem
+222. RecipesArmor
+223. RecipesArmorDyes
+224. RecipesBanners
+225. RecipesCrafting
+226. RecipesDyes
+227. RecipesFood
+228. RecipesIngots
+229. RecipesMapCloning
+230. RecipesTools
+231. RecipesWeapons
+232. ShapelessRecipes
+233. ItemStack
+234. CompressedStreamTools
+235. JsonToNBT
+236. NBTException
+237. NBTSizeTracker
+238. NBTTagByte
+239. NBTTagDouble
+240. NBTTagFloat
+241. NBTTagInt
+242. NBTTagLong
+243. NBTTagShort
+244. NBTUtil
+245. C00Handshake
+246. C00PacketLoginStart
+247. C01PacketEncryptionResponse
+248. S00PacketDisconnect
+249. S01PacketEncryptionRequest
+250. S02PacketLoginSuccess
+251. S03PacketEnableCompression
+252. NetHandlerPlayServer
+253. NettyCompressionDecoder
+254. NettyCompressionEncoder
+255. NettyEncryptingDecoder
+256. NettyEncryptingEncoder
+257. NettyEncryptionTranslator
+258. NetworkManager
+259. NetworkSystem
+260. PacketBuffer
+261. PacketThreadUtil
+262. PingResponseHandler
+263. C00PacketKeepAlive
+264. C01PacketChatMessage
+265. C02PacketUseEntity
+266. C03PacketPlayer
+267. C07PacketPlayerDigging
+268. C08PacketPlayerBlockPlacement
+269. C09PacketHeldItemChange
+270. C0APacketAnimation
+271. C0BPacketEntityAction
+272. C0CPacketInput
+273. C0DPacketCloseWindow
+274. C0EPacketClickWindow
+275. C0FPacketConfirmTransaction
+276. C10PacketCreativeInventoryAction
+277. C11PacketEnchantItem
+278. C12PacketUpdateSign
+279. C13PacketPlayerAbilities
+280. C14PacketTabComplete
+281. C15PacketClientSettings
+282. C16PacketClientStatus
+283. C17PacketCustomPayload
+284. C18PacketSpectate
+285. C19PacketResourcePackStatus
+286. S00PacketKeepAlive
+287. S01PacketJoinGame
+288. S02PacketChat
+289. S03PacketTimeUpdate
+290. S04PacketEntityEquipment
+291. S05PacketSpawnPosition
+292. S06PacketUpdateHealth
+293. S07PacketRespawn
+294. S08PacketPlayerPosLook
+295. S09PacketHeldItemChange
+296. S0APacketUseBed
+297. S0BPacketAnimation
+298. S0CPacketSpawnPlayer
+299. S0DPacketCollectItem
+300. S0EPacketSpawnObject
+301. S0FPacketSpawnMob
+302. S10PacketSpawnPainting
+303. S11PacketSpawnExperienceOrb
+304. S12PacketEntityVelocity
+305. S13PacketDestroyEntities
+306. S14PacketEntity
+307. S18PacketEntityTeleport
+308. S19PacketEntityHeadLook
+309. S19PacketEntityStatus
+310. S1BPacketEntityAttach
+311. S1CPacketEntityMetadata
+312. S1DPacketEntityEffect
+313. S1EPacketRemoveEntityEffect
+314. S1FPacketSetExperience
+315. S20PacketEntityProperties
+316. S21PacketChunkData
+317. S22PacketMultiBlockChange
+318. S23PacketBlockChange
+319. S24PacketBlockAction
+320. S25PacketBlockBreakAnim
+321. S26PacketMapChunkBulk
+322. S27PacketExplosion
+323. S28PacketEffect
+324. S29PacketSoundEffect
+325. S2APacketParticles
+326. S2BPacketChangeGameState
+327. S2CPacketSpawnGlobalEntity
+328. S2DPacketOpenWindow
+329. S2EPacketCloseWindow
+330. S2FPacketSetSlot
+331. S30PacketWindowItems
+332. S31PacketWindowProperty
+333. S32PacketConfirmTransaction
+334. S33PacketUpdateSign
+335. S34PacketMaps
+336. S35PacketUpdateTileEntity
+337. S36PacketSignEditorOpen
+338. S37PacketStatistics
+339. S38PacketPlayerListItem
+340. S39PacketPlayerAbilities
+341. S3APacketTabComplete
+342. S3BPacketScoreboardObjective
+343. S3CPacketUpdateScore
+344. S3DPacketDisplayScoreboard
+345. S3EPacketTeams
+346. S3FPacketCustomPayload
+347. S40PacketDisconnect
+348. S41PacketServerDifficulty
+349. S42PacketCombatEvent
+350. S43PacketCamera
+351. S44PacketWorldBorder
+352. S45PacketTitle
+353. S46PacketSetCompressionLevel
+354. S47PacketPlayerListHeaderFooter
+355. S48PacketResourcePackSend
+356. S49PacketUpdateEntityNBT
+357. RConConsoleSource
+358. RConOutputStream
+359. RConUtils
+360. ServerStatusResponse
+361. C00PacketServerQuery
+362. C01PacketPing
+363. S00PacketServerInfo
+364. S01PacketPong
+365. ThreadQuickExitException
+366. Path
+367. PathEntity
+368. PathFinder
+369. PathPoint
+370. PotionEffect
+371. PotionHelper
+372. PlayerUsageSnooper
+373. Profiler
+374. Realms
+375. RealmsAnvilLevelStorageSource
+376. RealmsClickableScrolledSelectionList
+377. RealmsConnect
+378. RealmsEditBox
+379. RealmsLevelSummary
+380. RealmsMth
+381. RealmsScrolledSelectionList
+382. RealmsServerAddress
+383. RealmsServerPing
+384. RealmsServerStatusPinger
+385. RealmsSharedConstants
+386. RealmsSimpleScrolledSelectionList
+387. Tezzelator
+388. GoalColor
+389. Score
+390. ScoreObjective
+391. PropertyManager
+392. ServerHangWatchdog
+393. MinecraftServerGui
+394. PlayerListComponent
+395. StatsComponent
+396. LowerStringMap
+397. PlayerManager
+398. PlayerProfileCache
+399. PreYggdrasilConverter
+400. NetHandlerHandshakeTCP
+401. NetHandlerLoginServer
+402. NetHandlerStatusServer
+403. ServerEula
+404. AchievementList
+405. StatList
+406. MobSpawnerBaseLogic
+407. AxisAlignedBB
+408. Cartesian
+409. ChatAllowedCharacters
+410. ChatComponentProcessor
+411. ChatComponentTranslationFormatException
+412. ChatStyle
+413. ClassInheritanceMultiMap
+414. CombatEntry
+415. CombatTracker
+416. CryptManager
+417. EnchantmentNameParts
+418. SwitchPlane
+419. EnumTypeAdapterFactory
+420. FoodStats
+421. HttpUtil
+422. Serializer
+423. IntHashMap
+424. JsonSerializableSet
+425. JsonUtils
+426. LazyLoadBase
+427. LoggingPrintStream
+428. LongHashMap
+429. MapPopulator
+430. MathHelper
+431. MessageDeserializer
+432. MessageDeserializer2
+433. MessageSerializer
+434. MessageSerializer2
+435. MinecraftError
+436. MouseFilter
+437. MouseHelper
+438. MovingObjectPosition
+439. ObjectIntIdentityMap
+440. ReportedException
+441. Rotations
+442. ScreenShotHelper
+443. Session
+444. StatCollector
+445. StringTranslate
+446. StringUtils
+447. ThreadSafeBoundList
+448. Timer
+449. Tuple
+450. TupleIntJsonSerializable
+451. Util
+452. Vec3
+453. Vec4b
+454. WeightedRandom
+455. WeightedRandomChestContent
+456. WeightedRandomFishable
+457. MerchantRecipe
+458. MerchantRecipeList
+459. Village
+460. VillageDoorInfo
+461. VillageSiege
+462. BiomeCache
+463. BiomeColorHelper
+464. WorldBorder
+465. ChunkPrimer
+466. NibbleArray
+467. AnvilChunkLoader
+468. ChunkLoader
+469. ExtendedBlockStorage
+470. NibbleArrayReader
+471. RegionFile
+472. RegionFileCache
+473. ChunkCoordIntPair
+474. ColorizerFoliage
+475. ColorizerGrass
+476. DifficultyInstance
+477. Explosion
+478. GameRules
+479. ChunkProviderDebug
+480. ChunkProviderEnd
+481. ChunkProviderFlat
+482. ChunkProviderGenerate
+483. ChunkProviderHell
+484. ChunkProviderServer
+485. ChunkProviderSettings
+486. FlatGeneratorInfo
+487. FlatLayerInfo
+488. IntCache
+489. NoiseGeneratorSimplex
+490. ComponentScatteredFeaturePieces
+491. MapGenStructureIO
+492. StructureBoundingBox
+493. StructureComponent
+494. StructureMineshaftPieces
+495. StructureNetherBridgePieces
+496. StructureOceanMonumentPieces
+497. StructureStrongholdPieces
+498. StructureVillagePieces
+499. LockCode
+500. MinecraftException
+501. NextTickListEntry
+502. SpawnerAnimals
+503. SaveFormatComparator
+504. SaveHandlerMP
+505. ThreadedFileIOBase
+506. Teleporter
+507. WorldManager
+508. WorldSettings
+509. WorldType

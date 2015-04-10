@@ -1,0 +1,1191 @@
+<?xml version="1.0"?>
+<Classes>
+  <L1 name="Block">
+    <L2 name="BlockAir"/>
+    <L2 name="BlockBarrier"/>
+    <L2 name="BlockBasePressurePlate">
+      <L3 name="BlockPressurePlate"/>
+      <L3 name="BlockPressurePlateWeighted"/>
+    </L2>
+    <L2 name="BlockBookshelf"/>
+    <L2 name="BlockBreakable">
+      <L3 name="BlockGlass"/>
+      <L3 name="BlockIce"/>
+      <L3 name="BlockPortal"/>
+      <L3 name="BlockSlime"/>
+      <L3 name="BlockStainedGlass"/>
+    </L2>
+    <L2 name="BlockBush">
+      <L3 name="BlockCrops">
+        <L4 name="BlockCarrot"/>
+        <L4 name="BlockPotato"/>
+      </L3>
+      <L3 name="BlockDeadBush"/>
+      <L3 name="BlockDoublePlant"/>
+      <L3 name="BlockFlower">
+        <L4 name="BlockRedFlower"/>
+        <L4 name="BlockYellowFlower"/>
+      </L3>
+      <L3 name="BlockLilyPad"/>
+      <L3 name="BlockMushroom"/>
+      <L3 name="BlockNetherWart"/>
+      <L3 name="BlockSapling"/>
+      <L3 name="BlockStem"/>
+      <L3 name="BlockTallGrass"/>
+    </L2>
+    <L2 name="BlockButton">
+      <L3 name="BlockButtonStone"/>
+      <L3 name="BlockButtonWood"/>
+    </L2>
+    <L2 name="BlockCactus"/>
+    <L2 name="BlockCake"/>
+    <L2 name="BlockCarpet"/>
+    <L2 name="BlockCauldron"/>
+    <L2 name="BlockClay"/>
+    <L2 name="BlockColored"/>
+    <L2 name="BlockCompressed">
+      <L3 name="BlockCompressedPowered"/>
+    </L2>
+    <L2 name="BlockContainer">
+      <L3 name="BlockBanner"/>
+      <L3 name="BlockBeacon"/>
+      <L3 name="BlockBrewingStand"/>
+      <L3 name="BlockChest"/>
+      <L3 name="BlockCommandBlock"/>
+      <L3 name="BlockDaylightDetector"/>
+      <L3 name="BlockDispenser">
+        <L4 name="BlockDropper"/>
+      </L3>
+      <L3 name="BlockEnchantmentTable"/>
+      <L3 name="BlockEnderChest"/>
+      <L3 name="BlockEndPortal"/>
+      <L3 name="BlockFlowerPot"/>
+      <L3 name="BlockFurnace"/>
+      <L3 name="BlockHopper"/>
+      <L3 name="BlockJukebox"/>
+      <L3 name="BlockMobSpawner"/>
+      <L3 name="BlockNote"/>
+      <L3 name="BlockPistonMoving"/>
+      <L3 name="BlockSign">
+        <L4 name="BlockStandingSign"/>
+        <L4 name="BlockWallSign"/>
+      </L3>
+      <L3 name="BlockSkull"/>
+    </L2>
+    <L2 name="BlockDirectional">
+      <L3 name="BlockBed"/>
+      <L3 name="BlockCocoa"/>
+      <L3 name="BlockFenceGate"/>
+      <L3 name="BlockPumpkin"/>
+      <L3 name="BlockRedstoneDiode">
+        <L4 name="BlockRedstoneComparator"/>
+        <L4 name="BlockRedstoneRepeater"/>
+      </L3>
+    </L2>
+    <L2 name="BlockDirt"/>
+    <L2 name="BlockDoor"/>
+    <L2 name="BlockDragonEgg"/>
+    <L2 name="BlockEndPortalFrame"/>
+    <L2 name="BlockFalling">
+      <L3 name="BlockAnvil"/>
+      <L3 name="BlockGravel"/>
+      <L3 name="BlockSand"/>
+    </L2>
+    <L2 name="BlockFarmland"/>
+    <L2 name="BlockFence"/>
+    <L2 name="BlockFire"/>
+    <L2 name="BlockGlowstone"/>
+    <L2 name="BlockGrass"/>
+    <L2 name="BlockHardenedClay"/>
+    <L2 name="BlockHugeMushroom"/>
+    <L2 name="BlockLadder"/>
+    <L2 name="BlockLeavesBase">
+      <L3 name="BlockLeaves">
+        <L4 name="BlockNewLeaf"/>
+        <L4 name="BlockOldLeaf"/>
+      </L3>
+    </L2>
+    <L2 name="BlockLever"/>
+    <L2 name="BlockLiquid">
+      <L3 name="BlockDynamicLiquid"/>
+      <L3 name="BlockStaticLiquid"/>
+    </L2>
+    <L2 name="BlockMelon"/>
+    <L2 name="BlockMycelium"/>
+    <L2 name="BlockNetherBrick"/>
+    <L2 name="BlockNetherrack"/>
+    <L2 name="BlockObsidian"/>
+    <L2 name="BlockOre"/>
+    <L2 name="BlockPackedIce"/>
+    <L2 name="BlockPane">
+      <L3 name="BlockStainedGlassPane"/>
+    </L2>
+    <L2 name="BlockPistonBase"/>
+    <L2 name="BlockPistonExtension"/>
+    <L2 name="BlockPlanks"/>
+    <L2 name="BlockPrismarine"/>
+    <L2 name="BlockQuartz"/>
+    <L2 name="BlockRailBase">
+      <L3 name="BlockRail"/>
+      <L3 name="BlockRailDetector"/>
+      <L3 name="BlockRailPowered"/>
+    </L2>
+    <L2 name="BlockRedSandstone"/>
+    <L2 name="BlockRedstoneLight"/>
+    <L2 name="BlockRedstoneOre"/>
+    <L2 name="BlockRedstoneWire"/>
+    <L2 name="BlockReed"/>
+    <L2 name="BlockRotatedPillar">
+      <L3 name="BlockHay"/>
+      <L3 name="BlockLog">
+        <L4 name="BlockNewLog"/>
+        <L4 name="BlockOldLog"/>
+      </L3>
+    </L2>
+    <L2 name="BlockSandStone"/>
+    <L2 name="BlockSeaLantern"/>
+    <L2 name="BlockSilverfish"/>
+    <L2 name="BlockSlab">
+      <L3 name="BlockStoneSlab">
+        <L4 name="BlockDoubleStoneSlab"/>
+        <L4 name="BlockHalfStoneSlab"/>
+      </L3>
+      <L3 name="BlockStoneSlabNew">
+        <L4 name="BlockDoubleStoneSlabNew"/>
+        <L4 name="BlockHalfStoneSlabNew"/>
+      </L3>
+      <L3 name="BlockWoodSlab">
+        <L4 name="BlockDoubleWoodSlab"/>
+        <L4 name="BlockHalfWoodSlab"/>
+      </L3>
+    </L2>
+    <L2 name="BlockSnow"/>
+    <L2 name="BlockSnowBlock"/>
+    <L2 name="BlockSoulSand"/>
+    <L2 name="BlockSponge"/>
+    <L2 name="BlockStairs"/>
+    <L2 name="BlockStone"/>
+    <L2 name="BlockStoneBrick"/>
+    <L2 name="BlockTNT"/>
+    <L2 name="BlockTorch">
+      <L3 name="BlockRedstoneTorch"/>
+    </L2>
+    <L2 name="BlockTrapDoor"/>
+    <L2 name="BlockTripWire"/>
+    <L2 name="BlockTripWireHook"/>
+    <L2 name="BlockVine"/>
+    <L2 name="BlockWall"/>
+    <L2 name="BlockWeb"/>
+    <L2 name="BlockWorkbench"/>
+  </L1>
+  <L1 name="Material">
+    <L2 name="MaterialLiquid"/>
+    <L2 name="MaterialLogic"/>
+    <L2 name="MaterialPortal"/>
+    <L2 name="MaterialTransparent"/>
+  </L1>
+  <L1 name="PropertyHelper">
+    <L2 name="PropertyBool"/>
+    <L2 name="PropertyEnum">
+      <L3 name="PropertyDirection"/>
+    </L2>
+    <L2 name="PropertyInteger"/>
+  </L1>
+  <L1 name="PositionedSound">
+    <L2 name="MovingSound">
+      <L3 name="GuardianSound"/>
+      <L3 name="MovingSoundMinecart"/>
+      <L3 name="MovingSoundMinecartRiding"/>
+    </L2>
+    <L2 name="PositionedSoundRecord"/>
+  </L1>
+  <L1 name="Gui">
+    <L2 name="GuiAchievement"/>
+    <L2 name="GuiButton">
+      <L3 name="GuiButtonLanguage"/>
+      <L3 name="GuiButtonRealmsProxy"/>
+      <L3 name="GuiListButton"/>
+      <L3 name="GuiLockIconButton"/>
+      <L3 name="GuiOptionButton"/>
+      <L3 name="GuiOptionSlider"/>
+      <L3 name="GuiSlider"/>
+    </L2>
+    <L2 name="GuiIngame"/>
+    <L2 name="GuiLabel"/>
+    <L2 name="GuiNewChat"/>
+    <L2 name="GuiOverlayDebug"/>
+    <L2 name="GuiPlayerTabOverlay"/>
+    <L2 name="GuiScreen">
+      <L3 name="GuiAchievements"/>
+      <L3 name="GuiStats"/>
+      <L3 name="GuiChat">
+        <L4 name="GuiSleepMP"/>
+      </L3>
+      <L3 name="GuiCommandBlock"/>
+      <L3 name="GuiControls"/>
+      <L3 name="GuiCreateFlatWorld"/>
+      <L3 name="GuiCreateWorld"/>
+      <L3 name="GuiCustomizeSkin"/>
+      <L3 name="GuiCustomizeWorldScreen"/>
+      <L3 name="GuiDisconnected"/>
+      <L3 name="GuiDownloadTerrain"/>
+      <L3 name="GuiErrorScreen"/>
+      <L3 name="GuiFlatPresets"/>
+      <L3 name="GuiGameOver"/>
+      <L3 name="GuiIngameMenu"/>
+      <L3 name="GuiLanguage"/>
+      <L3 name="GuiMainMenu"/>
+      <L3 name="GuiMemoryErrorScreen"/>
+      <L3 name="GuiMultiplayer"/>
+      <L3 name="GuiOptions"/>
+      <L3 name="GuiRenameWorld"/>
+      <L3 name="GuiScreenAddServer"/>
+      <L3 name="GuiScreenBook"/>
+      <L3 name="GuiScreenCustomizePresets"/>
+      <L3 name="GuiScreenDemo"/>
+      <L3 name="GuiScreenOptionsSounds"/>
+      <L3 name="GuiScreenRealmsProxy"/>
+      <L3 name="GuiScreenResourcePacks"/>
+      <L3 name="GuiScreenServerList"/>
+      <L3 name="GuiScreenWorking"/>
+      <L3 name="GuiSelectWorld"/>
+      <L3 name="GuiShareToLan"/>
+      <L3 name="GuiSnooper"/>
+      <L3 name="GuiVideoSettings"/>
+      <L3 name="GuiWinGame"/>
+      <L3 name="GuiYesNo">
+        <L4 name="GuiConfirmOpenLink"/>
+      </L3>
+      <L3 name="GuiContainer">
+        <L4 name="GuiEnchantment"/>
+        <L4 name="GuiHopper"/>
+        <L4 name="GuiMerchant"/>
+        <L4 name="GuiRepair"/>
+        <L4 name="GuiBeacon"/>
+        <L4 name="GuiBrewingStand"/>
+        <L4 name="GuiChest"/>
+        <L4 name="GuiCrafting"/>
+        <L4 name="GuiDispenser"/>
+        <L4 name="GuiFurnace"/>
+        <L4 name="GuiScreenHorseInventory"/>
+        <L4 name="InventoryEffectRenderer">
+          <L5 name="GuiContainerCreative"/>
+          <L5 name="GuiInventory"/>
+        </L4>
+      </L3>
+      <L3 name="GuiEditSign"/>
+      <L3 name="ScreenChatOptions"/>
+      <L3 name="GuiIngestServers"/>
+      <L3 name="GuiStreamOptions"/>
+      <L3 name="GuiStreamUnavailable"/>
+      <L3 name="GuiTwitchUserMode"/>
+      <L3 name="GuiConnecting"/>
+    </L2>
+    <L2 name="GuiSpectator"/>
+    <L2 name="GuiTextField"/>
+  </L1>
+  <L1 name="GuiSlot">
+    <L2 name="GuiClickableScrolledSelectionListProxy"/>
+    <L2 name="GuiListExtended">
+      <L3 name="GuiKeyBindingList"/>
+      <L3 name="GuiOptionsRowList"/>
+      <L3 name="GuiPageButtonList"/>
+      <L3 name="GuiResourcePackList">
+        <L4 name="GuiResourcePackAvailable"/>
+        <L4 name="GuiResourcePackSelected"/>
+      </L3>
+      <L3 name="ServerSelectionList"/>
+    </L2>
+    <L2 name="GuiSimpleScrolledSelectionListProxy"/>
+    <L2 name="GuiSlotRealmsProxy"/>
+  </L1>
+  <L1 name="ModelBase">
+    <L2 name="ModelBanner"/>
+    <L2 name="ModelBat"/>
+    <L2 name="ModelBiped">
+      <L3 name="ModelArmorStandArmor">
+        <L4 name="ModelArmorStand"/>
+      </L3>
+      <L3 name="ModelEnderman"/>
+      <L3 name="ModelPlayer"/>
+      <L3 name="ModelZombie">
+        <L4 name="ModelSkeleton"/>
+      </L3>
+      <L3 name="ModelZombieVillager"/>
+    </L2>
+    <L2 name="ModelBlaze"/>
+    <L2 name="ModelBoat"/>
+    <L2 name="ModelBook"/>
+    <L2 name="ModelChest">
+      <L3 name="ModelLargeChest"/>
+    </L2>
+    <L2 name="ModelChicken"/>
+    <L2 name="ModelCreeper"/>
+    <L2 name="ModelDragon"/>
+    <L2 name="ModelEnderCrystal"/>
+    <L2 name="ModelEnderMite"/>
+    <L2 name="ModelGhast"/>
+    <L2 name="ModelGuardian"/>
+    <L2 name="ModelHorse"/>
+    <L2 name="ModelIronGolem"/>
+    <L2 name="ModelLeashKnot"/>
+    <L2 name="ModelMagmaCube"/>
+    <L2 name="ModelMinecart"/>
+    <L2 name="ModelOcelot"/>
+    <L2 name="ModelQuadruped">
+      <L3 name="ModelCow"/>
+      <L3 name="ModelPig"/>
+      <L3 name="ModelSheep1"/>
+      <L3 name="ModelSheep2"/>
+    </L2>
+    <L2 name="ModelRabbit"/>
+    <L2 name="ModelSign"/>
+    <L2 name="ModelSilverfish"/>
+    <L2 name="ModelSkeletonHead">
+      <L3 name="ModelHumanoidHead"/>
+    </L2>
+    <L2 name="ModelSlime"/>
+    <L2 name="ModelSnowMan"/>
+    <L2 name="ModelSpider"/>
+    <L2 name="ModelSquid"/>
+    <L2 name="ModelVillager">
+      <L3 name="ModelWitch"/>
+    </L2>
+    <L2 name="ModelWither"/>
+    <L2 name="ModelWolf"/>
+  </L1>
+  <L1 name="BakedQuad">
+    <L2 name="BreakingFour"/>
+  </L1>
+  <L1 name="StateMapperBase">
+    <L2 name="DefaultStateMapper"/>
+    <L2 name="StateMap"/>
+  </L1>
+  <L1 name="RenderChunk">
+    <L2 name="ListedRenderChunk"/>
+  </L1>
+  <L1 name="ChunkRenderContainer">
+    <L2 name="RenderList"/>
+    <L2 name="VboRenderList"/>
+  </L1>
+  <L1 name="ClippingHelper">
+    <L2 name="ClippingHelperImpl"/>
+  </L1>
+  <L1 name="LayerArmorBase">
+    <L2 name="LayerBipedArmor">
+      <L3 name="LayerVillagerArmor"/>
+    </L2>
+  </L1>
+  <L1 name="Render">
+    <L2 name="RenderArrow"/>
+    <L2 name="RenderBoat"/>
+    <L2 name="RenderEntity"/>
+    <L2 name="RenderEntityItem"/>
+    <L2 name="RendererLivingEntity">
+      <L3 name="ArmorStandRenderer"/>
+      <L3 name="RenderLiving">
+        <L4 name="RenderBat"/>
+        <L4 name="RenderBiped">
+          <L5 name="RenderPigZombie"/>
+          <L5 name="RenderSkeleton"/>
+          <L5 name="RenderZombie"/>
+        </L4>
+        <L4 name="RenderBlaze"/>
+        <L4 name="RenderChicken"/>
+        <L4 name="RenderCow"/>
+        <L4 name="RenderCreeper"/>
+        <L4 name="RenderDragon"/>
+        <L4 name="RenderEnderman"/>
+        <L4 name="RenderEndermite"/>
+        <L4 name="RenderGhast"/>
+        <L4 name="RenderGiantZombie"/>
+        <L4 name="RenderGuardian"/>
+        <L4 name="RenderHorse"/>
+        <L4 name="RenderIronGolem"/>
+        <L4 name="RenderMagmaCube"/>
+        <L4 name="RenderMooshroom"/>
+        <L4 name="RenderOcelot"/>
+        <L4 name="RenderPig"/>
+        <L4 name="RenderRabbit"/>
+        <L4 name="RenderSheep"/>
+        <L4 name="RenderSilverfish"/>
+        <L4 name="RenderSlime"/>
+        <L4 name="RenderSnowMan"/>
+        <L4 name="RenderSpider">
+          <L5 name="RenderCaveSpider"/>
+        </L4>
+        <L4 name="RenderSquid"/>
+        <L4 name="RenderVillager"/>
+        <L4 name="RenderWitch"/>
+        <L4 name="RenderWither"/>
+        <L4 name="RenderWolf"/>
+      </L3>
+      <L3 name="RenderPlayer"/>
+    </L2>
+    <L2 name="RenderFallingBlock"/>
+    <L2 name="RenderFireball"/>
+    <L2 name="RenderFish"/>
+    <L2 name="RenderLeashKnot"/>
+    <L2 name="RenderLightningBolt"/>
+    <L2 name="RenderMinecart">
+      <L3 name="RenderMinecartMobSpawner"/>
+      <L3 name="RenderTntMinecart"/>
+    </L2>
+    <L2 name="RenderPainting"/>
+    <L2 name="RenderSnowball">
+      <L3 name="RenderPotion"/>
+    </L2>
+    <L2 name="RenderTNTPrimed"/>
+    <L2 name="RenderXPOrb"/>
+    <L2 name="RenderEnderCrystal"/>
+    <L2 name="RenderItemFrame"/>
+    <L2 name="RenderWitherSkull"/>
+  </L1>
+  <L1 name="AbstractTexture">
+    <L2 name="DynamicTexture"/>
+    <L2 name="LayeredColorMaskTexture"/>
+    <L2 name="LayeredTexture"/>
+    <L2 name="SimpleTexture">
+      <L3 name="ThreadDownloadImageData"/>
+    </L2>
+    <L2 name="TextureMap"/>
+  </L1>
+  <L1 name="TextureAtlasSprite">
+    <L2 name="TextureClock"/>
+    <L2 name="TextureCompass"/>
+  </L1>
+  <L1 name="TileEntitySpecialRenderer">
+    <L2 name="TileEntityBannerRenderer"/>
+    <L2 name="TileEntityBeaconRenderer"/>
+    <L2 name="TileEntityChestRenderer"/>
+    <L2 name="TileEntityEnchantmentTableRenderer"/>
+    <L2 name="TileEntityEnderChestRenderer"/>
+    <L2 name="TileEntityEndPortalRenderer"/>
+    <L2 name="TileEntityMobSpawnerRenderer"/>
+    <L2 name="TileEntityPistonRenderer"/>
+    <L2 name="TileEntitySignRenderer"/>
+    <L2 name="TileEntitySkullRenderer"/>
+  </L1>
+  <L1 name="WorldVertexBufferUploader">
+    <L2 name="VertexBufferUploader"/>
+  </L1>
+  <L1 name="AbstractResourcePack">
+    <L2 name="FileResourcePack"/>
+    <L2 name="FolderResourcePack"/>
+  </L1>
+  <L1 name="BaseMetadataSectionSerializer">
+    <L2 name="AnimationMetadataSectionSerializer"/>
+    <L2 name="FontMetadataSectionSerializer"/>
+    <L2 name="LanguageMetadataSectionSerializer"/>
+    <L2 name="PackMetadataSectionSerializer"/>
+    <L2 name="TextureMetadataSectionSerializer"/>
+  </L1>
+  <L1 name="ResourcePackListEntry">
+    <L2 name="ResourcePackListEntryDefault"/>
+    <L2 name="ResourcePackListEntryFound"/>
+  </L1>
+  <L1 name="ShaderUniform">
+    <L2 name="ShaderDefault"/>
+  </L1>
+  <L1 name="Metadata">
+    <L2 name="MetadataAchievement"/>
+    <L2 name="MetadataCombat"/>
+    <L2 name="MetadataPlayerDeath"/>
+  </L1>
+  <L1 name="CommandBase">
+    <L2 name="CommandBlockData"/>
+    <L2 name="CommandClearInventory"/>
+    <L2 name="CommandClone"/>
+    <L2 name="CommandCompare"/>
+    <L2 name="CommandDebug"/>
+    <L2 name="CommandDifficulty"/>
+    <L2 name="CommandEffect"/>
+    <L2 name="CommandEnchant"/>
+    <L2 name="CommandEntityData"/>
+    <L2 name="CommandExecuteAt"/>
+    <L2 name="CommandFill"/>
+    <L2 name="CommandGameMode">
+      <L3 name="CommandDefaultGameMode"/>
+    </L2>
+    <L2 name="CommandGameRule"/>
+    <L2 name="CommandGive"/>
+    <L2 name="CommandHelp"/>
+    <L2 name="CommandKill"/>
+    <L2 name="CommandParticle"/>
+    <L2 name="CommandPlaySound"/>
+    <L2 name="CommandServerKick"/>
+    <L2 name="CommandSetPlayerTimeout"/>
+    <L2 name="CommandSetSpawnpoint"/>
+    <L2 name="CommandShowSeed"/>
+    <L2 name="CommandSpreadPlayers"/>
+    <L2 name="CommandStats"/>
+    <L2 name="CommandTime"/>
+    <L2 name="CommandTitle"/>
+    <L2 name="CommandToggleDownfall"/>
+    <L2 name="CommandTrigger"/>
+    <L2 name="CommandWeather"/>
+    <L2 name="CommandWorldBorder"/>
+    <L2 name="CommandXP"/>
+    <L2 name="CommandReplaceItem"/>
+    <L2 name="CommandAchievement"/>
+    <L2 name="CommandBanIp"/>
+    <L2 name="CommandBanPlayer"/>
+    <L2 name="CommandBroadcast"/>
+    <L2 name="CommandDeOp"/>
+    <L2 name="CommandEmote"/>
+    <L2 name="CommandListBans"/>
+    <L2 name="CommandListPlayers"/>
+    <L2 name="CommandMessage"/>
+    <L2 name="CommandMessageRaw"/>
+    <L2 name="CommandOp"/>
+    <L2 name="CommandPardonIp"/>
+    <L2 name="CommandPardonPlayer"/>
+    <L2 name="CommandPublishLocalServer"/>
+    <L2 name="CommandSaveAll"/>
+    <L2 name="CommandSaveOff"/>
+    <L2 name="CommandSaveOn"/>
+    <L2 name="CommandScoreboard"/>
+    <L2 name="CommandSetBlock"/>
+    <L2 name="CommandSetDefaultSpawnpoint"/>
+    <L2 name="CommandStop"/>
+    <L2 name="CommandSummon"/>
+    <L2 name="CommandTeleport"/>
+    <L2 name="CommandTestFor"/>
+    <L2 name="CommandTestForBlock"/>
+    <L2 name="CommandWhitelist"/>
+  </L1>
+  <L1 name="CommandException">
+    <L2 name="CommandNotFoundException"/>
+    <L2 name="EntityNotFoundException"/>
+    <L2 name="NumberInvalidException"/>
+    <L2 name="PlayerNotFoundException"/>
+    <L2 name="SyntaxErrorException">
+      <L3 name="WrongUsageException"/>
+    </L2>
+  </L1>
+  <L1 name="CommandHandler">
+    <L2 name="ServerCommandManager">
+      <L3 name="IntegratedServerCommandManager"/>
+    </L2>
+  </L1>
+  <L1 name="BehaviorDefaultDispenseItem">
+    <L2 name="BehaviorProjectileDispense"/>
+  </L1>
+  <L1 name="Enchantment">
+    <L2 name="EnchantmentArrowDamage"/>
+    <L2 name="EnchantmentArrowFire"/>
+    <L2 name="EnchantmentArrowInfinite"/>
+    <L2 name="EnchantmentArrowKnockback"/>
+    <L2 name="EnchantmentDamage"/>
+    <L2 name="EnchantmentDigging"/>
+    <L2 name="EnchantmentDurability"/>
+    <L2 name="EnchantmentFireAspect"/>
+    <L2 name="EnchantmentFishingSpeed"/>
+    <L2 name="EnchantmentKnockback"/>
+    <L2 name="EnchantmentLootBonus"/>
+    <L2 name="EnchantmentOxygen"/>
+    <L2 name="EnchantmentProtection"/>
+    <L2 name="EnchantmentThorns"/>
+    <L2 name="EnchantmentUntouching"/>
+    <L2 name="EnchantmentWaterWalker"/>
+    <L2 name="EnchantmentWaterWorker"/>
+  </L1>
+  <L1 name="BaseAttribute">
+    <L2 name="RangedAttribute"/>
+  </L1>
+  <L1 name="BaseAttributeMap">
+    <L2 name="ServersideAttributeMap"/>
+  </L1>
+  <L1 name="EntityAIBase">
+    <L2 name="EntityAIArrowAttack"/>
+    <L2 name="EntityAIAttackOnCollide"/>
+    <L2 name="EntityAIAvoidEntity"/>
+    <L2 name="EntityAIBeg"/>
+    <L2 name="EntityAIControlledByPlayer"/>
+    <L2 name="EntityAICreeperSwell"/>
+    <L2 name="EntityAIDoorInteract">
+      <L3 name="EntityAIBreakDoor"/>
+      <L3 name="EntityAIOpenDoor"/>
+    </L2>
+    <L2 name="EntityAIEatGrass"/>
+    <L2 name="EntityAIFindEntityNearest"/>
+    <L2 name="EntityAIFindEntityNearestPlayer"/>
+    <L2 name="EntityAIFleeSun"/>
+    <L2 name="EntityAIFollowGolem"/>
+    <L2 name="EntityAIFollowOwner"/>
+    <L2 name="EntityAIFollowParent"/>
+    <L2 name="EntityAILeapAtTarget"/>
+    <L2 name="EntityAILookAtVillager"/>
+    <L2 name="EntityAILookIdle"/>
+    <L2 name="EntityAIMate"/>
+    <L2 name="EntityAIMoveIndoors"/>
+    <L2 name="EntityAIMoveThroughVillage"/>
+    <L2 name="EntityAIMoveToBlock">
+      <L3 name="EntityAIHarvestFarmland"/>
+      <L3 name="EntityAIOcelotSit"/>
+    </L2>
+    <L2 name="EntityAIMoveTowardsRestriction"/>
+    <L2 name="EntityAIMoveTowardsTarget"/>
+    <L2 name="EntityAIOcelotAttack"/>
+    <L2 name="EntityAIPanic"/>
+    <L2 name="EntityAIPlay"/>
+    <L2 name="EntityAIRestrictOpenDoor"/>
+    <L2 name="EntityAIRestrictSun"/>
+    <L2 name="EntityAIRunAroundLikeCrazy"/>
+    <L2 name="EntityAISit"/>
+    <L2 name="EntityAISwimming"/>
+    <L2 name="EntityAITarget">
+      <L3 name="EntityAIDefendVillage"/>
+      <L3 name="EntityAIHurtByTarget"/>
+      <L3 name="EntityAINearestAttackableTarget">
+        <L4 name="EntityAITargetNonTamed"/>
+      </L3>
+      <L3 name="EntityAIOwnerHurtByTarget"/>
+      <L3 name="EntityAIOwnerHurtTarget"/>
+    </L2>
+    <L2 name="EntityAITempt"/>
+    <L2 name="EntityAITradePlayer"/>
+    <L2 name="EntityAIVillagerMate"/>
+    <L2 name="EntityAIWander"/>
+    <L2 name="EntityAIWatchClosest">
+      <L3 name="EntityAILookAtTradePlayer"/>
+      <L3 name="EntityAIWatchClosest2">
+        <L4 name="EntityAIVillagerInteract"/>
+      </L3>
+    </L2>
+  </L1>
+  <L1 name="Entity">
+    <L2 name="EntityFX">
+      <L3 name="Barrier"/>
+      <L3 name="EntityAuraFX"/>
+      <L3 name="EntityBreakingFX"/>
+      <L3 name="EntityBubbleFX"/>
+      <L3 name="EntityCloudFX"/>
+      <L3 name="EntityCrit2FX"/>
+      <L3 name="EntityDiggingFX">
+        <L4 name="EntityBlockDustFX"/>
+      </L3>
+      <L3 name="EntityDropParticleFX"/>
+      <L3 name="EntityEnchantmentTableParticleFX"/>
+      <L3 name="EntityExplodeFX"/>
+      <L3 name="EntityFireworkOverlayFX"/>
+      <L3 name="EntityFireworkSparkFX"/>
+      <L3 name="EntityFireworkStarterFX"/>
+      <L3 name="EntityFishWakeFX"/>
+      <L3 name="EntityFlameFX"/>
+      <L3 name="EntityFootStepFX"/>
+      <L3 name="EntityHeartFX"/>
+      <L3 name="EntityHugeExplodeFX"/>
+      <L3 name="EntityLargeExplodeFX"/>
+      <L3 name="EntityLavaFX"/>
+      <L3 name="EntityNoteFX"/>
+      <L3 name="EntityParticleEmitter"/>
+      <L3 name="EntityPickupFX"/>
+      <L3 name="EntityPortalFX"/>
+      <L3 name="EntityRainFX">
+        <L4 name="EntitySplashFX"/>
+      </L3>
+      <L3 name="EntityReddustFX"/>
+      <L3 name="EntitySmokeFX">
+        <L4 name="EntityCritFX"/>
+      </L3>
+      <L3 name="EntitySnowShovelFX"/>
+      <L3 name="EntitySpellParticleFX"/>
+      <L3 name="EntitySuspendFX"/>
+      <L3 name="MobAppearance"/>
+    </L2>
+    <L2 name="EntityDragonPart"/>
+    <L2 name="EntityWeatherEffect">
+      <L3 name="EntityLightningBolt"/>
+    </L2>
+    <L2 name="EntityHanging">
+      <L3 name="EntityLeashKnot"/>
+      <L3 name="EntityItemFrame"/>
+      <L3 name="EntityPainting"/>
+    </L2>
+    <L2 name="EntityLivingBase">
+      <L3 name="EntityLiving">
+        <L4 name="EntityDragon"/>
+        <L4 name="EntityCreature">
+          <L5 name="EntityAgeable">
+            <L6 name="EntityAnimal">
+              <L7 name="EntityChicken"/>
+              <L7 name="EntityCow">
+                <L8 name="EntityMooshroom"/>
+              </L7>
+              <L7 name="EntityHorse"/>
+              <L7 name="EntityPig"/>
+              <L7 name="EntityRabbit"/>
+              <L7 name="EntitySheep"/>
+              <L7 name="EntityTameable">
+                <L8 name="EntityOcelot"/>
+                <L8 name="EntityWolf"/>
+              </L7>
+            </L6>
+            <L6 name="EntityVillager"/>
+          </L5>
+          <L5 name="EntityGolem">
+            <L6 name="EntityIronGolem"/>
+            <L6 name="EntitySnowman"/>
+          </L5>
+          <L5 name="EntityMob">
+            <L6 name="EntityWither"/>
+            <L6 name="EntityBlaze"/>
+            <L6 name="EntityCreeper"/>
+            <L6 name="EntityEnderman"/>
+            <L6 name="EntityEndermite"/>
+            <L6 name="EntityGiantZombie"/>
+            <L6 name="EntityGuardian"/>
+            <L6 name="EntitySilverfish"/>
+            <L6 name="EntitySkeleton"/>
+            <L6 name="EntitySpider">
+              <L7 name="EntityCaveSpider"/>
+            </L6>
+            <L6 name="EntityWitch"/>
+            <L6 name="EntityZombie">
+              <L7 name="EntityPigZombie"/>
+            </L6>
+          </L5>
+        </L4>
+        <L4 name="EntityFlying">
+          <L5 name="EntityGhast"/>
+        </L4>
+        <L4 name="EntitySlime">
+          <L5 name="EntityMagmaCube"/>
+        </L4>
+        <L4 name="EntityAmbientCreature">
+          <L5 name="EntityBat"/>
+        </L4>
+        <L4 name="EntityWaterMob">
+          <L5 name="EntitySquid"/>
+        </L4>
+      </L3>
+      <L3 name="EntityArmorStand"/>
+      <L3 name="EntityPlayer">
+        <L4 name="AbstractClientPlayer">
+          <L5 name="EntityOtherPlayerMP"/>
+          <L5 name="EntityPlayerSP"/>
+        </L4>
+        <L4 name="EntityPlayerMP"/>
+      </L3>
+    </L2>
+    <L2 name="EntityBoat"/>
+    <L2 name="EntityEnderCrystal"/>
+    <L2 name="EntityEnderEye"/>
+    <L2 name="EntityFallingBlock"/>
+    <L2 name="EntityFireworkRocket"/>
+    <L2 name="EntityItem"/>
+    <L2 name="EntityMinecart">
+      <L3 name="EntityMinecartMobSpawner"/>
+      <L3 name="EntityMinecartCommandBlock"/>
+      <L3 name="EntityMinecartContainer">
+        <L4 name="EntityMinecartChest"/>
+        <L4 name="EntityMinecartHopper"/>
+      </L3>
+      <L3 name="EntityMinecartEmpty"/>
+      <L3 name="EntityMinecartFurnace"/>
+      <L3 name="EntityMinecartTNT"/>
+    </L2>
+    <L2 name="EntityTNTPrimed"/>
+    <L2 name="EntityXPOrb"/>
+    <L2 name="EntityArrow"/>
+    <L2 name="EntityFireball">
+      <L3 name="EntityLargeFireball"/>
+      <L3 name="EntitySmallFireball"/>
+      <L3 name="EntityWitherSkull"/>
+    </L2>
+    <L2 name="EntityFishHook"/>
+    <L2 name="EntityThrowable">
+      <L3 name="EntityEnderPearl"/>
+      <L3 name="EntityExpBottle"/>
+      <L3 name="EntityEgg"/>
+      <L3 name="EntityPotion"/>
+      <L3 name="EntitySnowball"/>
+    </L2>
+  </L1>
+  <L1 name="Container">
+    <L2 name="ContainerBeacon"/>
+    <L2 name="ContainerBrewingStand"/>
+    <L2 name="ContainerChest"/>
+    <L2 name="ContainerDispenser"/>
+    <L2 name="ContainerEnchantment"/>
+    <L2 name="ContainerFurnace"/>
+    <L2 name="ContainerHopper"/>
+    <L2 name="ContainerHorseInventory"/>
+    <L2 name="ContainerMerchant"/>
+    <L2 name="ContainerPlayer"/>
+    <L2 name="ContainerRepair"/>
+    <L2 name="ContainerWorkbench"/>
+  </L1>
+  <L1 name="InventoryBasic">
+    <L2 name="ContainerLocalMenu"/>
+    <L2 name="AnimalChest"/>
+    <L2 name="InventoryEnderChest"/>
+  </L1>
+  <L1 name="Slot">
+    <L2 name="SlotCrafting"/>
+    <L2 name="SlotFurnaceFuel"/>
+    <L2 name="SlotFurnaceOutput"/>
+    <L2 name="SlotMerchantResult"/>
+  </L1>
+  <L1 name="ShapedRecipes">
+    <L2 name="RecipesMapExtending"/>
+  </L1>
+  <L1 name="Item">
+    <L2 name="ItemArmor"/>
+    <L2 name="ItemArmorStand"/>
+    <L2 name="ItemBed"/>
+    <L2 name="ItemBlock">
+      <L3 name="ItemBanner"/>
+      <L3 name="ItemCloth"/>
+      <L3 name="ItemColored">
+        <L4 name="ItemLilyPad"/>
+      </L3>
+      <L3 name="ItemLeaves"/>
+      <L3 name="ItemMultiTexture">
+        <L4 name="ItemAnvilBlock"/>
+        <L4 name="ItemDoublePlant"/>
+      </L3>
+      <L3 name="ItemPiston"/>
+      <L3 name="ItemSlab"/>
+      <L3 name="ItemSnow"/>
+    </L2>
+    <L2 name="ItemBoat"/>
+    <L2 name="ItemBook"/>
+    <L2 name="ItemBow"/>
+    <L2 name="ItemBucket"/>
+    <L2 name="ItemBucketMilk"/>
+    <L2 name="ItemCarrotOnAStick"/>
+    <L2 name="ItemCoal"/>
+    <L2 name="ItemDoor"/>
+    <L2 name="ItemDye"/>
+    <L2 name="ItemEditableBook"/>
+    <L2 name="ItemEgg"/>
+    <L2 name="ItemEnchantedBook"/>
+    <L2 name="ItemEnderEye"/>
+    <L2 name="ItemEnderPearl"/>
+    <L2 name="ItemExpBottle"/>
+    <L2 name="ItemFireball"/>
+    <L2 name="ItemFirework"/>
+    <L2 name="ItemFireworkCharge"/>
+    <L2 name="ItemFishingRod"/>
+    <L2 name="ItemFlintAndSteel"/>
+    <L2 name="ItemFood">
+      <L3 name="ItemAppleGold"/>
+      <L3 name="ItemFishFood"/>
+      <L3 name="ItemSeedFood"/>
+      <L3 name="ItemSoup"/>
+    </L2>
+    <L2 name="ItemGlassBottle"/>
+    <L2 name="ItemHangingEntity"/>
+    <L2 name="ItemHoe"/>
+    <L2 name="ItemLead"/>
+    <L2 name="ItemMapBase">
+      <L3 name="ItemEmptyMap"/>
+      <L3 name="ItemMap"/>
+    </L2>
+    <L2 name="ItemMinecart"/>
+    <L2 name="ItemMonsterPlacer"/>
+    <L2 name="ItemNameTag"/>
+    <L2 name="ItemPotion"/>
+    <L2 name="ItemRecord"/>
+    <L2 name="ItemRedstone"/>
+    <L2 name="ItemReed"/>
+    <L2 name="ItemSaddle"/>
+    <L2 name="ItemSeeds"/>
+    <L2 name="ItemShears"/>
+    <L2 name="ItemSign"/>
+    <L2 name="ItemSimpleFoiled"/>
+    <L2 name="ItemSkull"/>
+    <L2 name="ItemSnowball"/>
+    <L2 name="ItemSword"/>
+    <L2 name="ItemTool">
+      <L3 name="ItemAxe"/>
+      <L3 name="ItemPickaxe"/>
+      <L3 name="ItemSpade"/>
+    </L2>
+    <L2 name="ItemWritableBook"/>
+  </L1>
+  <L1 name="NBTBase">
+    <L2 name="NBTTagByteArray"/>
+    <L2 name="NBTTagCompound"/>
+    <L2 name="NBTTagEnd"/>
+    <L2 name="NBTTagIntArray"/>
+    <L2 name="NBTTagList"/>
+    <L2 name="NBTTagString"/>
+  </L1>
+  <L1 name="RConThreadBase">
+    <L2 name="RConThreadClient"/>
+    <L2 name="RConThreadMain"/>
+    <L2 name="RConThreadQuery"/>
+  </L1>
+  <L1 name="PathNavigate">
+    <L2 name="PathNavigateGround">
+      <L3 name="PathNavigateClimber"/>
+    </L2>
+    <L2 name="PathNavigateSwimmer"/>
+  </L1>
+  <L1 name="Potion">
+    <L2 name="PotionAbsorption"/>
+    <L2 name="PotionAttackDamage"/>
+    <L2 name="PotionHealth"/>
+    <L2 name="PotionHealthBoost"/>
+  </L1>
+  <L1 name="RealmsButton">
+    <L2 name="RealmsSliderButton"/>
+  </L1>
+  <L1 name="RealmsScreen">
+    <L2 name="DisconnectedRealmsScreen"/>
+    <L2 name="RealmsBridge"/>
+  </L1>
+  <L1 name="Scoreboard">
+    <L2 name="ServerScoreboard"/>
+  </L1>
+  <L1 name="ScoreDummyCriteria">
+    <L2 name="ScoreHealthCriteria"/>
+    <L2 name="ObjectiveStat"/>
+  </L1>
+  <L1 name="Team">
+    <L2 name="ScorePlayerTeam"/>
+  </L1>
+  <L1 name="ItemInWorldManager">
+    <L2 name="DemoWorldManager"/>
+  </L1>
+  <L1 name="ServerConfigurationManager">
+    <L2 name="DedicatedPlayerList"/>
+    <L2 name="IntegratedPlayerList"/>
+  </L1>
+  <L1 name="UserList">
+    <L2 name="BanList"/>
+    <L2 name="UserListBans"/>
+    <L2 name="UserListOps"/>
+    <L2 name="UserListWhitelist"/>
+  </L1>
+  <L1 name="UserListEntry">
+    <L2 name="BanEntry">
+      <L3 name="IPBanEntry"/>
+      <L3 name="UserListBansEntry"/>
+    </L2>
+    <L2 name="UserListOpsEntry"/>
+    <L2 name="UserListWhitelistEntry"/>
+  </L1>
+  <L1 name="MinecraftServer">
+    <L2 name="DedicatedServer"/>
+    <L2 name="IntegratedServer"/>
+  </L1>
+  <L1 name="StatBase">
+    <L2 name="Achievement"/>
+    <L2 name="StatBasic"/>
+    <L2 name="StatCrafting"/>
+  </L1>
+  <L1 name="StatFileWriter">
+    <L2 name="StatisticsFile"/>
+  </L1>
+  <L1 name="TileEntity">
+    <L2 name="TileEntityBanner"/>
+    <L2 name="TileEntityCommandBlock"/>
+    <L2 name="TileEntityComparator"/>
+    <L2 name="TileEntityDaylightDetector"/>
+    <L2 name="TileEntityEnchantmentTable"/>
+    <L2 name="TileEntityEnderChest"/>
+    <L2 name="TileEntityEndPortal"/>
+    <L2 name="TileEntityFlowerPot"/>
+    <L2 name="TileEntityLockable">
+      <L3 name="TileEntityBeacon"/>
+      <L3 name="TileEntityBrewingStand"/>
+      <L3 name="TileEntityChest"/>
+      <L3 name="TileEntityDispenser">
+        <L4 name="TileEntityDropper"/>
+      </L3>
+      <L3 name="TileEntityFurnace"/>
+      <L3 name="TileEntityHopper"/>
+    </L2>
+    <L2 name="TileEntityMobSpawner"/>
+    <L2 name="TileEntityNote"/>
+    <L2 name="TileEntityPiston"/>
+    <L2 name="TileEntitySign"/>
+    <L2 name="TileEntitySkull"/>
+  </L1>
+  <L1 name="ChatComponentStyle">
+    <L2 name="ChatComponentScore"/>
+    <L2 name="ChatComponentSelector"/>
+    <L2 name="ChatComponentText"/>
+    <L2 name="ChatComponentTranslation"/>
+  </L1>
+  <L1 name="DamageSource">
+    <L2 name="EntityDamageSource">
+      <L3 name="EntityDamageSourceIndirect"/>
+    </L2>
+  </L1>
+  <L1 name="MovementInput">
+    <L2 name="MovementInputFromOptions"/>
+  </L1>
+  <L1 name="RegistrySimple">
+    <L2 name="SoundRegistry"/>
+    <L2 name="RegistryDefaulted"/>
+    <L2 name="RegistryNamespaced">
+      <L3 name="RegistryNamespacedDefaultedByKey"/>
+    </L2>
+  </L1>
+  <L1 name="ResourceLocation">
+    <L2 name="ModelResourceLocation"/>
+  </L1>
+  <L1 name="Vec3i">
+    <L2 name="BlockPos"/>
+  </L1>
+  <L1 name="BiomeDecorator">
+    <L2 name="BiomeEndDecorator"/>
+  </L1>
+  <L1 name="BiomeGenBase">
+    <L2 name="BiomeGenBeach"/>
+    <L2 name="BiomeGenDesert"/>
+    <L2 name="BiomeGenEnd"/>
+    <L2 name="BiomeGenForest"/>
+    <L2 name="BiomeGenHell"/>
+    <L2 name="BiomeGenHills"/>
+    <L2 name="BiomeGenJungle"/>
+    <L2 name="BiomeGenMesa"/>
+    <L2 name="BiomeGenMushroomIsland"/>
+    <L2 name="BiomeGenMutated"/>
+    <L2 name="BiomeGenOcean"/>
+    <L2 name="BiomeGenPlains"/>
+    <L2 name="BiomeGenRiver"/>
+    <L2 name="BiomeGenSavanna"/>
+    <L2 name="BiomeGenSnow"/>
+    <L2 name="BiomeGenStoneBeach"/>
+    <L2 name="BiomeGenSwamp"/>
+    <L2 name="BiomeGenTaiga"/>
+  </L1>
+  <L1 name="WorldChunkManager">
+    <L2 name="WorldChunkManagerHell"/>
+  </L1>
+  <L1 name="Chunk">
+    <L2 name="EmptyChunk"/>
+  </L1>
+  <L1 name="ChunkCache">
+    <L2 name="RegionRenderCache"/>
+  </L1>
+  <L1 name="WorldGenerator">
+    <L2 name="WorldGenAbstractTree">
+      <L3 name="WorldGenBigTree"/>
+      <L3 name="WorldGenCanopyTree"/>
+      <L3 name="WorldGenForest"/>
+      <L3 name="WorldGenHugeTrees">
+        <L4 name="WorldGenMegaJungle"/>
+        <L4 name="WorldGenMegaPineTree"/>
+      </L3>
+      <L3 name="WorldGenSavannaTree"/>
+      <L3 name="WorldGenSwamp"/>
+      <L3 name="WorldGenTaiga1"/>
+      <L3 name="WorldGenTaiga2"/>
+      <L3 name="WorldGenTrees">
+        <L4 name="WorldGenShrub"/>
+      </L3>
+    </L2>
+    <L2 name="WorldGenBigMushroom"/>
+    <L2 name="WorldGenBlockBlob"/>
+    <L2 name="WorldGenCactus"/>
+    <L2 name="WorldGenClay"/>
+    <L2 name="WorldGenDeadBush"/>
+    <L2 name="WorldGenDesertWells"/>
+    <L2 name="WorldGenDoublePlant"/>
+    <L2 name="WorldGenDungeons"/>
+    <L2 name="WorldGeneratorBonusChest"/>
+    <L2 name="WorldGenFire"/>
+    <L2 name="WorldGenFlowers"/>
+    <L2 name="WorldGenGlowStone1"/>
+    <L2 name="WorldGenGlowStone2"/>
+    <L2 name="WorldGenHellLava"/>
+    <L2 name="WorldGenIcePath"/>
+    <L2 name="WorldGenIceSpike"/>
+    <L2 name="WorldGenLakes"/>
+    <L2 name="WorldGenLiquids"/>
+    <L2 name="WorldGenMelon"/>
+    <L2 name="WorldGenMinable"/>
+    <L2 name="WorldGenPumpkin"/>
+    <L2 name="WorldGenReed"/>
+    <L2 name="WorldGenSand"/>
+    <L2 name="WorldGenSpikes"/>
+    <L2 name="WorldGenTallGrass"/>
+    <L2 name="WorldGenVines"/>
+    <L2 name="WorldGenWaterlily"/>
+    <L2 name="GeneratorBushFeature"/>
+  </L1>
+  <L1 name="GenLayer">
+    <L2 name="GenLayerAddIsland"/>
+    <L2 name="GenLayerAddMushroomIsland"/>
+    <L2 name="GenLayerAddSnow"/>
+    <L2 name="GenLayerBiome"/>
+    <L2 name="GenLayerBiomeEdge"/>
+    <L2 name="GenLayerDeepOcean"/>
+    <L2 name="GenLayerEdge"/>
+    <L2 name="GenLayerHills"/>
+    <L2 name="GenLayerIsland"/>
+    <L2 name="GenLayerRareBiome"/>
+    <L2 name="GenLayerRemoveTooMuchOcean"/>
+    <L2 name="GenLayerRiver"/>
+    <L2 name="GenLayerRiverInit"/>
+    <L2 name="GenLayerRiverMix"/>
+    <L2 name="GenLayerShore"/>
+    <L2 name="GenLayerSmooth"/>
+    <L2 name="GenLayerVoronoiZoom"/>
+    <L2 name="GenLayerZoom">
+      <L3 name="GenLayerFuzzyZoom"/>
+    </L2>
+  </L1>
+  <L1 name="MapGenBase">
+    <L2 name="MapGenCaves"/>
+    <L2 name="MapGenCavesHell"/>
+    <L2 name="MapGenRavine"/>
+    <L2 name="MapGenStructure">
+      <L3 name="MapGenMineshaft"/>
+      <L3 name="MapGenNetherBridge"/>
+      <L3 name="MapGenScatteredFeature"/>
+      <L3 name="MapGenStronghold"/>
+      <L3 name="MapGenVillage"/>
+      <L3 name="StructureOceanMonument"/>
+    </L2>
+  </L1>
+  <L1 name="NoiseGenerator">
+    <L2 name="NoiseGeneratorImproved"/>
+    <L2 name="NoiseGeneratorOctaves"/>
+    <L2 name="NoiseGeneratorPerlin"/>
+  </L1>
+  <L1 name="StructureStart">
+    <L2 name="StructureMineshaftStart"/>
+  </L1>
+  <L1 name="NodeProcessor">
+    <L2 name="SwimNodeProcessor"/>
+    <L2 name="WalkNodeProcessor"/>
+  </L1>
+  <L1 name="MapStorage">
+    <L2 name="SaveDataMemoryStorage"/>
+  </L1>
+  <L1 name="SaveFormatOld">
+    <L2 name="AnvilSaveConverter"/>
+  </L1>
+  <L1 name="SaveHandler">
+    <L2 name="AnvilSaveHandler"/>
+  </L1>
+  <L1 name="WorldInfo">
+    <L2 name="DerivedWorldInfo"/>
+  </L1>
+  <L1 name="World">
+    <L2 name="WorldClient"/>
+    <L2 name="WorldServer">
+      <L3 name="DemoWorldServer"/>
+      <L3 name="WorldServerMulti"/>
+    </L2>
+  </L1>
+  <L1 name="WorldProvider">
+    <L2 name="WorldProviderEnd"/>
+    <L2 name="WorldProviderHell"/>
+    <L2 name="WorldProviderSurface"/>
+  </L1>
+  <L1 name="WorldSavedData">
+    <L2 name="ScoreboardSaveData"/>
+    <L2 name="VillageCollection"/>
+    <L2 name="MapGenStructureData"/>
+    <L2 name="MapData"/>
+  </L1>
+</Classes>
